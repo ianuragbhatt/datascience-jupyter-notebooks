@@ -1,0 +1,6 @@
+runtime: python37
+
+# you can use default bucket name which will be created by app engine
+# or you can create your own bucket in the same project
+env_variables:
+  BUCKET_NAME: "<BUCKET NAME>"
