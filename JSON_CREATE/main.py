@@ -5,18 +5,18 @@ import os
 
 app = Flask(__name__)
 
-# credentails for accessing cloud storage 
-storage_client = storage.Client.from_service_account_json('gcloud_private_key.json')
-# storage_client = storage.Client()
-# bucket_name = os.environ.get('BUCKET_NAME')
+
 bucket_name = 'bucket1go'
+# credentails for accessing cloud storage 
+# storage_client = storage.Client.from_service_account_json('gcloud_private_key.json')
+storage_client = storage.Client()
 BUCKET = storage_client.get_bucket(bucket_name)
 
 @app.route('/create_json')
 def create_json():
     json_file = {
-        'Name': 'Anurag',
-        'Age': '21'
+        'Name': 'Testing1',
+        'Age': '23'
     }
     filename = 'test.json'
     blob = BUCKET.blob(filename)
