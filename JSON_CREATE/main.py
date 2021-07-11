@@ -5,22 +5,21 @@ import os
 
 app = Flask(__name__)
 
+# credentails for accessing cloud storage 
+storage_client = storage.Client.from_service_account_json('gcloud_private_key.json')
+# storage_client = storage.Client()
+# bucket_name = os.environ.get('BUCKET_NAME')
+bucket_name = 'bucket1go'
+BUCKET = storage_client.get_bucket(bucket_name)
 
 @app.route('/create_json')
 def create_json():
-    # Automatically set credentials for your bucket storage
-    storage_client = storage.Client()
-    # json value
     json_file = {
         'Name': 'Anurag',
         'Age': '21'
     }
-    # Get bucket name from environment variable in app.yaml file
-    bucket_name = os.environ.get('BUCKET_NAME')
-    bucket = storage_client.get_bucket(bucket_name)
-    # declare your file name
-    blob = bucket.blob('first_text.json')
-    # upload json data were we will set content_type as json
+    filename = 'test.json'
+    blob = BUCKET.blob(filename)
     blob.upload_from_string(
         data=json.dumps(json_file),
         content_type='application/json'
@@ -30,15 +29,10 @@ def create_json():
 
 @app.route('/get_json')
 def get_json():
-    # Automatically set credentials for your bucket storage
-    storage_client = storage.Client()
-    # Get bucket name from environment variable in app.yaml file
-    bucket_name = os.environ.get('BUCKET_NAME')
-    bucket = storage_client.get_bucket(bucket_name)
-    # Get the file we want
-    blob = bucket.get_blob('first_text.json')
-    fileData = json.loads(blob.download_as_string())
-    return fileData
+    filename = 'test.json'
+    blob = BUCKET.get_blob('test.json')
+    file_data = json.loads(blob.download_as_string())
+    return file_data
 
 
 if __name__ == '__main__':
