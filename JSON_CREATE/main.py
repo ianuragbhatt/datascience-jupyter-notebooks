@@ -30,7 +30,7 @@ def create_json():
 @app.route('/get_json')
 def get_json():
     filename = 'test.json'
-    blob = BUCKET.get_blob('test.json')
+    blob = BUCKET.get_blob(filename)
     file_data = json.loads(blob.download_as_string())
     return file_data
 
