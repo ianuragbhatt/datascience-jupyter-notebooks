@@ -5,6 +5,7 @@
 
 ## Index
 * [ktrain](#ktrain)
+* [aws](#aws)
 
 ## ktrain
 
@@ -13,6 +14,18 @@ IPython Notebook(s) demonstrating ktrain various functionality.
 | Notebook | Description |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [ktrain-deployment-text-classification.ipynb](https://github.com/ianuragbhatt/ipython-jupyter-notebooks/blob/master/ktrain/ktrain-deployment-text-classification.ipynb) | Learn basic of ktrain for text classification and how to save the model and use it for deployment. |
+
+## aws
+
+AWS python code where I use different services like SSM, Lambda, etc.
+| File | Description |
+|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [ssm-lambda.py](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/aws/SSM-lambda.py) | Fetch online SSM instance details using LAMBDA. |
+| [ssm-ec2.py](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/aws/ssm-ec2.py) | Fetch SSM Agent installed EC2 instances installed applications using SSM inventory. |
+| [commands-ec2-lambda.py](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/aws/commands-ec2-lambda.py) | run commands on online SSM EC2 instances by LAMBDA. |
+| [roles-lambda.py](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/aws/roles-lambda.py) | How to assume roles through LAMBDA function. |
+
+
 
 ## credits
 
