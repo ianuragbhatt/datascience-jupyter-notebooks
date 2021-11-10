@@ -16,8 +16,8 @@ IPython Notebook(s) demonstrating ktrain various functionality.
 
 ## credits
 
-* [Template for this repository](https://github.com/donnemartin/data-science-ipython-notebooks)
-* [ktrain tutorials](https://github.com/amaiya/ktrain)
+* [Template for this repository](https://github.com/donnemartin/data-science-ipython-notebooks) by donnemartin
+* [ktrain tutorials](https://github.com/amaiya/ktrain) by amaiya
 
 ## contributing
 
