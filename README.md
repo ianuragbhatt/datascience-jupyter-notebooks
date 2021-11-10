@@ -1,4 +1,4 @@
-# datascience-ipython-jupyter-notebooks
+# datascience-jupyter-notebooks
 
 ## Index
 * [ktrain](#ktrain)
