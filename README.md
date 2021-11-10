@@ -1,5 +1,8 @@
 # datascience-jupyter-notebooks
 
+## Overview
+* These notebooks and python notebooks have my personal code which I have collected and created over my learning period anyone can use these notebooks for their personal purposes.
+
 ## Index
 * [ktrain](#ktrain)
 
