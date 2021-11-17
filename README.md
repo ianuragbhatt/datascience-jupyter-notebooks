@@ -31,6 +31,7 @@ python code used in datarobot
 | File | Description |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [datarobot_prediction_api.ipynb](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/datarobot/datarobot_prediction_api.ipynb) | datarobot prediction api code for real time and batch prediction |
+| [datarobot_python_starter_api.ipynb](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/datarobot/datarobot_python_starter_api.ipynb) | datarobot basic python code to upload, eda, deployment, real time and batch predictions  |
 
 
 ## credits
