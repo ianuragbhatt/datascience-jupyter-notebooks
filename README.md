@@ -6,6 +6,7 @@
 ## Index
 * [ktrain](#ktrain)
 * [aws](#aws)
+* [datarobot](#datarobot)
 
 ## ktrain
 
@@ -13,7 +14,7 @@ IPython Notebook(s) demonstrating ktrain various functionality.
 
 | Notebook | Description |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [ktrain_deployment_text_classification.ipynb](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/ktrain/ktrain_deployment_text_classification.ipynb) | Learn basic of ktrain for text classification and how to save the model and use it for deployment. |
+| [ktrain-deployment-text-classification.ipynb](https://github.com/ianuragbhatt/ipython-jupyter-notebooks/blob/master/ktrain/ktrain-deployment-text-classification.ipynb) | Learn basic of ktrain for text classification and how to save the model and use it for deployment. |
 
 ## aws
 
@@ -25,6 +26,11 @@ AWS python code where I use different services like SSM, Lambda, etc.
 | [commands-ec2-lambda.py](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/aws/commands-ec2-lambda.py) | run commands on online SSM EC2 instances by LAMBDA. |
 | [roles-lambda.py](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/aws/roles-lambda.py) | How to assume roles through LAMBDA function. |
 
+## datarobot
+python code used in datarobot
+| File | Description |
+|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [datarobot_prediction_api.ipynb](https://github.com/ianuragbhatt/datascience-jupyter-notebooks/blob/master/datarobot/datarobot_prediction_api.ipynb) | datarobot prediction api code for real time and batch prediction |
 
 
 ## credits
