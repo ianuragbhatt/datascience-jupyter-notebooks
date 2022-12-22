@@ -45,7 +45,7 @@ Contributions are welcome!  For bug reports or requests please [submit an issue]
 
 ## contact-info
 
-Feel free to contact me to discuss any issues, questions, or comments.
+Feel free to contact me to discuss any issues, questions, or comments. I don't use twitter that much So, you can ping me on gmail and Linkedin
 
 * Email : [anur4g.bhatt@gmail.com](mailto:anur4g.bhatt@gmail.com)
 * Medium : [ianuragbhatt](https://ianuragbhatt.medium.com/)
